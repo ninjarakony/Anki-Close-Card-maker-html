@@ -1,44 +1,25 @@
-Cloze Generator
+# Cloze Generator 💡
 
-A simple HTML-based application for creating cloze-deletion text, commonly used in learning tools like Anki. This tool hides random parts of a phrase and formats them in the {{cX:: ... }} syntax.
+A simple, browser-based tool for generating **cloze-deletion text**, perfect for learning tools like Anki! 🎓
 
-Features
+## ✨ Features
+- 📝 **Text Input**: Enter the phrase or word to process.
+- 🔢 **Cloze Number**: Customize the cloze number (default: 1).
+- ⚡ **Generate Button**: Creates cloze-deleted text, hiding 30–70% of non-space characters in `{{cX:: ... }}` format.
+- 📋 **Copy to Clipboard**: Easily copy the result with fallback support for older browsers.
+- 🎨 **Modern Design**: Responsive, clean interface with intuitive styling.
 
-Text Input: Enter the phrase or word to process.
+## 🚀 How to Use
+1. Open the HTML file in your browser 🌐.
+2. Enter a phrase in the **text input** field.
+3. (Optional) Set the **cloze number**.
+4. Click the **"Generate" button** to create the cloze-deleted text.
+5. Use the **"Copy to Clipboard" button** to copy the result for your flashcards.
 
-Cloze Number Input: Specify the cloze number (default is 1).
+## 📋 Requirements
+- A modern web browser (no additional setup required).
 
-Generate Button: Produces the cloze-deleted text by hiding 30–70% of non-space characters.
+## 🎯 Purpose
+This tool helps you quickly generate cloze-deleted text for effective study sessions. Ideal for flashcards in spaced repetition systems like Anki. 🧠
 
-Copy Button: Easily copy the result to the clipboard with fallback support for older browsers.
-
-Responsive Design: Clean, modern interface with user-friendly styling.
-
-
-How to Use
-
-1. Open the HTML file in a browser.
-
-
-2. Enter a phrase in the input field.
-
-
-3. (Optional) Set the cloze number.
-
-
-4. Click "Generate" to create the cloze-deleted text.
-
-
-5. Copy the result using the "Copy to Clipboard" button.
-
-
-
-Requirements
-
-A modern web browser (supports all functionality without additional setup).
-
-
-Purpose
-
-This tool simplifies creating cloze-deleted text for studying, particularly for flashcards in spaced repetition systems like Anki.
-
+Enjoy efficient and fun learning! 🚀
